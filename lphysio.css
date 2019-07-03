@@ -1,5 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  margin:0;
+  padding:0;
   background-color: #7878ff;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div.barre {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cccccc;
+  border: 1px solid #222222;
+}
+
+div.barre ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.barre li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  color: #222222;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #aaaaaa;
+}
+
+#article {
+  margin: auto;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 80%;
+  background-color: #cccccc;
+  border: 1px solid #222222;
+  color: #222222;
 }
