@@ -1,0 +1,34 @@
+#Imagerie et douleur
+
+Dans cet article, nous allons parler de l'imagerie médicale et de son utilisation dans la pratique clinique.
+
+Mots clés : imagerie, médicale, paramédicale, diagnostic, douleur
+
+Grâce aux progrès de la science, l’imagerie médicale a connu de nombreuses évolutions rendant le diagnostic clinique de plus en plus performant.
+L’imagerie se définit comme étant toute analyse permise par l’intermédiaire d’une machine et offrant une image/conclusion objectivable/chiffrable. Les plus connues sont les : radiographies, échographies, scanners, IRM etc.
+
+"De nos jours, les imageries ne sont plus prescrites en première intention."
+
+La Haute Autorité de la Santé propose chaque année des recommandations pratiques se basant sur les dernières données de la littérature. Les praticiens affiliés au ministère de la santé (médecins, kinésithérapeutes, etc.) sont dans l’obligation de mettre à jour leurs connaissances théoriques et pratiques.
+De manière unanime, la littérature recommande de prescrire des examens complémentaires : 1) à la suite d’un examen clinique complet, 2) si cette image permettrait d’obtenir des informations ne pouvant pas être observées en clinique, 3) selon des critères précis et propres à chaque pathologie.
+
+"Une imagerie positive n'est pas forcément en lien direct avec les douleurs."
+
+En 2015, l’étude de Brinjikji & al répond à plusieurs questions : « L’imagerie peut-elle être utilisée comme outil de diagnostic », « L’imagerie permet-elle de connaître l'étiologie de la douleur », etc.
+Ainsi 3110 patients asymptomatiques(sans douleur) ont subi une imagerie médicale lombaire. Dans le tableau ci-dessous, nous présentons un échantillon des résultats observées dans cette étude :
+
+*graphique alacon*
+
+Par exemple 37% des sujets de 20 ans et 96% des sujets de 80 ans ont une dégénérescence discale sans avoir aucune douleur.
+Nous pouvons conclure que l’imagerie médicale ne permet pas d’offrir un diagnostic lorsqu’il est utilisé en première intention.
+
+"Une imagerie n'est pertinente qu'associée à un examen clinique."
+
+Pour autant cela ne signifie pas que cet outil est dénué d’intérêt. Utilisé en complément d’un examen clinique complet, il peut être d’une pertinence redoutable. L’imagerie reste et restera un support important pour les thérapeutes et non un outil de diagnostic isolé.
+
+##Conclusion
+
+Pratiquer une science médicale et sociale nous confronte à faire face à des patients. Nous comprenons l’impact des douleurs sur les activités familiales, professionnelles et sociales pouvant entraîner des retentissements psychologiques important.
+Lors de consultation, il est fréquent d’avoir face à nous des patients ayant des croyances découlant des résultats des imageries pouvant potentiellement entraîner une/des inquiétudes.
+
+Y.Chemmamma
