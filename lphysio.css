@@ -11,6 +11,11 @@ body {
   background-color: #222;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* La navbar */
 
 nav {
@@ -112,11 +117,10 @@ nav a:active {
 }
 
 .bloc-theme {
-  padding: 1em;
   margin: 1em;
   background-color: #ddd;
   border: 1px solid #777;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
   text-align: justify;
   overflow: auto;
@@ -125,17 +129,22 @@ nav a:active {
 
 .bloc-theme h1, .bloc-theme h2 {
   text-align: center;
-  margin-bottom: 1em;
+  margin: 0.5em;
 }
 
 .bloc-theme p {
   display: inline-block;
-  margin: 0.5em;
+  margin: 1em;
 }
 
 .flottegauche {
   float: left;
-  max-width: 500px;
+  width: 50%;
+}
+
+.textuel {
+  float: right;
+  width: 50%
 }
 
 #annonce {
