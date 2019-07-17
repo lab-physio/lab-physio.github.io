@@ -28,7 +28,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  border-right: 1px groove #999;
+  border-right: 1px solid #555;
 }
 
 nav a {
