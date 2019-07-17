@@ -1,70 +1,113 @@
-html {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  margin:0;
-  padding:0;
-  background-color: #7878ff;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  /*margin-top: 10em; /* Cette ligne fout le bordel, attention. */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #aaf;
 }
 
-div.barre {
+/* La navbar */
+
+nav {
+  background-color: #222;
+  position: fixed;
+  top: 0;
   width: 100%;
-  background-color: #cccccc;
-  border: 1px solid #222222;
-  margin-bottom: 8px;
-  box-shadow: 0px 0px 2px;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.5);
 }
 
-div.barre ul {
+nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
-div.barre li {
-  float: left;
+nav li {
+  display: inline-block;
+  border-right: 1px groove #999;
 }
 
-li a {
+nav a {
   display: block;
-  text-align: center;
-  padding: 8px;
-  color: #222222;
-  font-size: 16px;
+  padding: 1em;
   text-decoration: none;
+  color: #ddd;
 }
 
-li a:hover {
-  background-color: #aaaaaa;
+nav a:hover {
+  background-color: #111;
+}
+
+nav a:active {
+  color: #aaa;
 }
 
 .contenudumenu {
   display: none;
   position: absolute;
-  background-color: #cccccc;
-  color: #222222;
-  border: 1px solid #222222;
   z-index: 1;
+  background-color: #ddd;
+  overflow: auto;
+  border: 1px solid #111;
 }
 
 .contenudumenu a {
-  text-align: left;
+  color: #111;
+}
+
+.contenudumenu a:hover {
+  background-color: #999;
 }
 
 .menu:hover .contenudumenu {
   display: block;
 }
 
-#article {
-  margin: auto;
-  box-sizing: border-box;
-  padding: 30px;
-  width: 80%;
-  background-color: #cccccc;
-  border: 1px solid #222222;
-  color: #222222;
+/* Le décaleur */
+
+.decaleur {
+  margin:0;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.decaleur p {
+  display: block;
+  padding: 1em;
+}
+
+/* Le reste */
+
+.conteneur {
+}
+
+.contenu {
+}
+
+.contenu p {
+  padding: 1em;
+  margin: 1em;
+  background-color: #99e;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  color: #ddd;
+  padding: 1em;
+  box-shadow: 0px -2px 3px rgba(0,0,0,0.5);
+}
+
+footer p {
+  overflow: hidden;
 }
