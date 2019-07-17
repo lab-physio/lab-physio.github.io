@@ -6,7 +6,7 @@
 
 body {
   /*margin-top: 10em; /* Cette ligne fout le bordel, attention. */
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Geneva, Verdana, sans-serif;
   text-align: center;
   background-color: #222;
 }
