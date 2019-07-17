@@ -8,13 +8,13 @@ body {
   /*margin-top: 10em; /* Cette ligne fout le bordel, attention. */
   font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: #aaf;
+  background-color: #222;
 }
 
 /* La navbar */
 
 nav {
-  background-image: linear-gradient(#222 0%, #222 85%, #333 100%);
+  background-image: linear-gradient(0deg, #333 0%, #222 0.6em, #222 100%);
   background-color: #222;
   position: fixed;
   top: 0;
@@ -29,7 +29,6 @@ nav ul {
 
 nav li {
   display: inline-block;
-  border-right: 1px solid #555;
 }
 
 nav a {
@@ -37,15 +36,27 @@ nav a {
   padding: 1em;
   text-decoration: none;
   color: #ddd;
+  border-right: 1px solid #555;
 }
 
+#ptilogo {
+  border-radius: 0em 0 0 1.5em;
+  border-left: 1px solid #555;
+}
+
+#btnapropos {
+  border-radius: 0 0em 1.5em 0;
+}
+
+
+
 nav a:hover {
-  background-image: linear-gradient(#111 0%, #111 85%, #222 100%);
-  background-color: #111;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
 }
 
 nav a:active {
   color: #aaa;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
 }
 
 .contenudumenu {
@@ -62,8 +73,6 @@ nav a:active {
 }
 
 .contenudumenu a:hover {
-  background-image: none;
-  background-color: #999;
 }
 
 .menu:hover .contenudumenu {
@@ -87,33 +96,60 @@ nav a:active {
 /* Le reste */
 
 .conteneur {
+  text-align: center;
+  background-color: #aaf;
 }
 
 .hellosalut {
   margin: 1em;
-  width: 70%;
+  width: 90%;
+  max-width: 1000px;
 }
 
 .contenu {
+  display: inline-block;
+  width: 100%;
+  max-width: 1000px;
 }
 
-.contenu p {
+.bloc-theme {
   padding: 1em;
   margin: 1em;
   background-color: #99e;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  text-align: justify;
+  overflow: auto;
 }
 
+.bloc-theme h1, .bloc-theme h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.bloc-theme p {
+  margin: 0,5em 0;
+}
+
+.flottegauche {
+  float: left;
+  max-width: 500px;
+}
+
+#annonce {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Le pied-de-page */
+
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  background-image: linear-gradient(#333 0%, #222 15%, #222 100%);
+  background-image: linear-gradient(#333 0%, #222 0.6em, #222 100%);
   background-color: #222;
   color: #ddd;
-  padding: 1em;
+  padding: 2em;
   box-shadow: 0px -2px 3px rgba(0,0,0,0.5);
 }
 
