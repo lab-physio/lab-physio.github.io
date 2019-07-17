@@ -121,7 +121,7 @@ nav a:active {
   background-color: #ddd;
   border: 1px solid #777;
   border-radius: 10px;
-  box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
   text-align: justify;
   overflow: auto;
   color: #222;
@@ -129,22 +129,33 @@ nav a:active {
 
 .bloc-theme h1, .bloc-theme h2 {
   text-align: center;
-  margin: 0.5em;
+  margin: 0.5em 0.5em 0 0.5em;
 }
 
 .bloc-theme p {
   display: inline-block;
   margin: 1em;
+  text-indent: 2em;
+}
+
+.flottedroit {
+  float: right;
+  width: 40%;
 }
 
 .flottegauche {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
-.textuel {
+.textueldroit {
   float: right;
-  width: 50%
+  width: 60%
+}
+
+.textuelgauche {
+  float: left;
+  width: 60%;
 }
 
 #annonce {
@@ -165,4 +176,46 @@ footer {
 
 footer p {
   overflow: hidden;
+}
+
+/* Spécificités du site desktop */
+
+
+
+/* La version mobile */
+
+@media (max-width: 930px) {
+
+nav a {
+  display: none;
+}
+
+#ptilogo {
+  display: block;
+  border-radius: 20em;
+  width: 100%;
+}
+
+.bloc-theme {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.bloc-theme img {
+  z-index: -1;
+}
+
+.bloc-theme h1, .bloc-theme h2 {
+  height: 100%
+}
+
+.bloc-theme p {
+  display: none;
+}
+
+#annonce p {
+  display: block;
+}
+
 }
