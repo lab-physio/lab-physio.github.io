@@ -219,8 +219,8 @@ input[type="checkbox"]:checked + aside {
 }
 
 .bloctexte {
-  display: flex;
-  align-items: center;
+  display: flex; /* Pour centrer verticalement le .sousbloctexte */
+  align-items: center; /* car un grid ne peut pas se comporter comme un flex */
   justify-content: center;
   padding: 1.5em;
 }
@@ -259,6 +259,7 @@ input[type="checkbox"]:checked + aside {
 }
 
 .vignette p {
+  margin: 1em 0;
 }
 
 #annonce {
@@ -334,12 +335,16 @@ footer p {
 
   .vignette {
     margin: 0;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     border-radius: 0;
     border: none;
     border-top: 1px solid #222;
     border-bottom: 1px solid #222;
     box-shadow: none;
+  }
+
+  .vignette a img {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 
   .bloctexte {
@@ -352,7 +357,7 @@ footer p {
 
   .sousbloctexte h1, .sousbloctexte h2 {
     margin: 0;
-    padding: 0.4em;
+    padding: 1em;
     text-align: center;
   }
 
