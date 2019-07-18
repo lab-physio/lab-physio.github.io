@@ -219,15 +219,22 @@ input[type="checkbox"]:checked + aside {
 }
 
 .bloctexte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.5em;
 }
 
-.bloctexte h1, .bloctexte h2 {
+.sousbloctexte {
+  display:block;
+}
+
+.sousbloctexte h1, .sousbloctexte h2 {
   text-align: center;
   margin-bottom: 1em;
 }
 
-.bloctexte p {
+.sousbloctexte p {
   text-align: justify;
 }
 
@@ -246,7 +253,7 @@ input[type="checkbox"]:checked + aside {
 }
 
 .vignette a img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 1
 }
@@ -286,6 +293,7 @@ footer {
   color: #ddd;
   padding: 2em;
   box-shadow: 0px -2px 3px rgba(0,0,0,0.5);
+  z-index: 1
 }
 
 footer p {
@@ -325,15 +333,16 @@ footer p {
   }
 
   .vignette {
-    margin:0;
+    margin: 0;
+    margin-bottom: 4px;
     border-radius: 0;
     border: none;
     border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
     box-shadow: none;
   }
 
   .bloctexte {
-    position: relative;
     padding: 0;
   }
 
@@ -341,11 +350,10 @@ footer p {
     display: none;
   }
 
-  .bloctexte h1, .bloctexte h2 {
+  .sousbloctexte h1, .sousbloctexte h2 {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    padding: 0.4em;
+    text-align: center;
   }
 
   #annonce {
