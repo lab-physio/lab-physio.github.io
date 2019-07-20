@@ -69,7 +69,7 @@ input[type="checkbox"] {
 }
 
 nav a:hover, label[for="tres_cool"]:hover {
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.7) inset;
+  box-shadow: 0px 0px 0.8em rgba(0,0,0,0.7) inset;
 }
 
 nav a:active {
@@ -154,7 +154,7 @@ input[type="checkbox"]:checked + aside {
 }
 
 .barreducote a:hover {
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.7) inset;
+  box-shadow: 0px 0px 0.8em rgba(0,0,0,0.7) inset;
 }
 
 .barreducote a:active {
@@ -369,7 +369,7 @@ footer p {
     left:0;
     width:100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.75);
     color: #eee;
     text-shadow: 0 1px black, 0 2px black, 1px 0 black, 2px 0 black, -1px 0 black, -2px 0 black, 0 -1px black, 0 -2px black;
     z-index: 2;
