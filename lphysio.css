@@ -7,7 +7,7 @@
 }
 
 html {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -166,7 +166,6 @@ input[type="checkbox"]:checked + aside {
 
 .conteneur {
   margin: 0;
-  padding: 1em;
   text-align: center;
   background-color: #ccc;
 }
@@ -273,9 +272,7 @@ input[type="checkbox"]:checked + aside {
   transform: rotate(0deg);
 }
 
-#annonce:hover {
-  transform: rotate(1.5deg);
-}
+
 
 #article {
   padding: 2em;
@@ -307,11 +304,18 @@ footer p {
 
 /* Spécificités du site desktop */
 
-
+@media (min-width: 1000px) {
+  #annonce:hover {
+    transform: rotate(1.5deg);
+  }
+}
 
 /* La version mobile */
 
-@media (max-width: 930px) {
+@media (max-width: 999px) {
+  :focus {
+    outline: none;
+  }
 
   nav a {
     display: none;
@@ -335,11 +339,7 @@ footer p {
   }
 
   label[for="tres_cool"] {
-    border-radius: 10em;
-  }
-
-  .conteneur {
-    padding: 0;
+    border-radius: 1.5em;
   }
 
   .hellosalut {
@@ -362,17 +362,18 @@ footer p {
     box-shadow: 0;
   }
 
-.vignette .bloctexte {
-  position: absolute;
-  pointer-events: none;
-  top: 0;
-  left:0;
-  width:100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8);
-  color: #eee;
-  z-index: 1;
-}
+  .vignette .bloctexte {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: #eee;
+    text-shadow: 0 1px black, 0 2px black, 1px 0 black, 2px 0 black, -1px 0 black, -2px 0 black, 0 -1px black, 0 -2px black;
+    z-index: 1;
+  }
 
   .resume {
     display: none;
