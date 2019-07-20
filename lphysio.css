@@ -171,9 +171,10 @@ input[type="checkbox"]:checked + aside {
 }
 
 .hellosalut {
-  margin-bottom: 1em;
-  width: 90%;
-  max-width: 1000px;
+  display: block;
+  padding: 0.5em;
+  max-height: 241px;
+  width: 100%;
 }
 
 .contenu {
@@ -250,7 +251,7 @@ input[type="checkbox"]:checked + aside {
   object-fit: cover;
   width: 100%;
   transition: all 0.3s;
-  transform: scale(1);
+  transform: scale(1.01);
   box-shadow: none;
   z-index: 0;
 }
@@ -340,13 +341,6 @@ footer p {
 
   label[for="tres_cool"] {
     border-radius: 1.5em;
-  }
-
-  .hellosalut {
-    display: block;
-    width:100%;
-    margin: 0;
-    padding: 0.5em;
   }
 
   .vignette {
