@@ -105,7 +105,7 @@ aside {
 
 input[type="checkbox"]:checked + aside {
   left: 0;
-  box-shadow: 5px 0px 1000px rgba(0,0,0,0.9);
+  box-shadow: 5px 0px 10px rgba(0,0,0,0.9);
 }
 
 .barreducote {
@@ -344,7 +344,7 @@ footer p {
   }
 
   .vignette a img {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
 
   .bloctexte {
