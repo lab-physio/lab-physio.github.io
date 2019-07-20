@@ -223,8 +223,8 @@ input[type="checkbox"]:checked + aside {
 }
 
 .bloctexte {
-  display: flex; /* Pour centrer verticalement le .sousbloctexte */
-  align-items: center; /* car un grid ne peut pas se comporter comme un flex */
+  display: flex;         /*  Pour centrer verticalement le .sousbloctexte  */
+  align-items: center;   /* Un grid ne peut pas se comporter comme un flex */
   justify-content: center;
   padding: 1.5em;
 }
@@ -351,8 +351,10 @@ footer p {
 
     position: relative;
     display: block;
-    margin:0;
-    border-radius:0;
+    height: 11em;
+    margin: 0;
+    border-style: solid none none none;
+    border-radius: 0;
     box-shadow: none;
   }
 
@@ -377,6 +379,10 @@ footer p {
     margin: 0;
     padding: 1em;
     text-align: center;
+  }
+
+  #annonce {
+    height: auto;
   }
 
   #annonce .bloctexte {
