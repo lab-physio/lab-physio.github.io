@@ -351,11 +351,14 @@ footer p {
 
     position: relative;
     display: block;
-    height: 11em;
     margin: 0;
     border-style: solid none none none;
     border-radius: 0;
     box-shadow: none;
+  }
+
+  .vignette.pajdak {
+        height: 11em; /* Hauteur des vignettes sur la page d'accueil */
   }
 
   .vignette .bloctexte {
@@ -379,10 +382,6 @@ footer p {
     margin: 0;
     padding: 1em;
     text-align: center;
-  }
-
-  #annonce {
-    height: auto;
   }
 
   #annonce .bloctexte {
